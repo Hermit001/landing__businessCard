@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Landing</title>
+</head>
+
+<body>
+	<div class="burger__header">
+		<div class="menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
+			<ul class="burger__menu">
+				<li class="main__li"><a href="" class="maim__a__first">Home</a></li>
+				<li><a href="" class="maim__a">About me</a></li>
+				<li><a href="" class="maim__a">Skills</a></li>
+				<li><a href="" class="maim__a">Portfolio</a></li>
+				<li><a href="" class="maim__a">Contacts</a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="header__main">
+			<div class="name">Nikita<br> Fedotov</div>
+			<div class="about__header">UX | UI designer 20 years old, Moscow</div>
+			<div class="lang">RU | ENG</div>
+		</div>
+		<picture class="about__img">
+			<source srcset="img/Me.jpg" type="image/jpg" media="(min-width: 769px">
+			<source srcset="img/about__i.jpg" type="image/jpg" media="(max-width: 768px">
+			<img src="img/Me.jpg" alt="">
+		</picture>
+		<div id="arrowTop" hidden></div>
+	</header>
+	<div class="about">
+		<h1 class="about__h1">About me</h1>
+		<p class="about__p">Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and
+			everything connected with it.<br> <br>I'm studying at courses "Web and mobile design <br> interfaces" in
+			IT-Academy. <br><br> Ready to implement excellent projects <br> with wonderful people.
+		</p>
+	</div>
+	<div class="skill">
+		<div class="skill_body">
+			<h1 class="skill__h1">Skills</h1>
+			<p class="skill__p">I work in such programs as</p>
+			<div class="skill__footer">
+				<div class="rating">
+					<div class="PS">
+						<img src="img/PS.svg" alt="" class="skill__img">
+						<div class="text__PS">Adobe<br>Photoshop</div>
+						<div class="rating__PS">
+							<div class="rating__body__PS">
+								<div class="rating__active__PS"></div>
+								<div class="rating__item__PS">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="AI">
+						<img src="img/AI.svg" alt="" class="skill__img">
+						<div class="text__AI">Adobe<br>Illustrator</div>
+						<div class="rating__AI">
+							<div class="rating__body__AI">
+								<div class="rating__active__AI"></div>
+								<div class="rating__item__AI">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="AE">
+						<img src="img/AE.svg" alt="" class="skill__img">
+						<div class="text__AE">Adobe<br>After Effects</div>
+						<div class="rating__AE">
+							<div class="rating__body__AE">
+								<div class="rating__active__AE"></div>
+								<div class="rating__item__AE">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Figma">
+						<img src="img/Figma.svg" alt="" class="skill__img">
+						<div class="text__Figma">Figma<br></div>
+						<div class="rating__Figma">
+							<div class="rating__body__Figma">
+								<div class="rating__active__Figma"></div>
+								<div class="rating__item__Figma">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio">
+		<h1 class="portfolio__h1">Portfolio</h1>
+		<div class="projext__1">
+			<img src="img/Levis.jpg" alt="" class="project__img">
+			<p class="project__p">
+				<a href="" class="project__a">Online fashion store - Homepage</a>
+			</p>
+		</div>
+		<div class="projext__2">
+			<img src="img/reebok.jpg" alt="" class="project__img">
+			<p class="project__p">
+				<a href="" class="project__a">Reebok Store - Concept</a>
+			</p>
+		</div>
+		<div class="projext__3">
+			<img src="img/braun.jpg" alt="" class="project__img">
+			<p class="project__p">
+				<a href="" class="project__a">Braun Landing Page - Concept</a>
+			</p>
+		</div>
+	</div>
+	<footer class="footer">
+		<h1 class="footer__h1">Contacts</h1>
+		<p class="footer__p">Want to know more or just chat?<br>You are welcome!</p>
+		<button type="button">Send Massege</button>
+		<div class="contacts">
+			<img src="img/in.svg" alt="" class="footer__img">
+			<img src="img/instagram.svg" alt="" class="footer__img">
+			<img src="img/be.svg" alt="" class="footer__img">
+			<img src="img/www.svg" alt="" class="footer__img">
+		</div>
+		<div class="footer_adress">Like me on<br>LinkedIn, Instagram, Behance, Dribble</div>
+	</footer>
+
+
+</body>
+
+</html>
