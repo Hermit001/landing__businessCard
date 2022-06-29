@@ -1,1 +1,3 @@
-# landing__businessCard
+# Сайт визитка
+
+с адаптивом 
